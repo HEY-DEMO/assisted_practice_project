@@ -40,7 +40,8 @@ class access{
 }
 class protect extends access_modifier{
 	protected String game = "Red Dead Redemption 2";
-	protected void game_name() {
+	protected void game_name() { //Protected access modifier can only be used through a subclass in 
+								//same package or from different one
 		System.out.println("Name of the game: "+this.game);
 	}
 }
