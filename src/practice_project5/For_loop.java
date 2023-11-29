@@ -1,8 +1,5 @@
-package practice_project4;
-/*Do while loop is used to iterate the statements at least once
- * 
- */
-public class Do_while_loop { 
+package practice_project5;
+public class For_loop { 
 	public static void main(String[] args) {
 		arr a = new arr();
 		a.loop();
@@ -13,10 +10,10 @@ class arr{
 	int array[]= {3,5,6,7,4,45,542}; //initialize and give values in an array
 	int i=0;
 	public void loop() {
-		do { 
+		//initialize, condition and increment in a single line
+		for(i=0;i<7;i++) { 
 			//print the elements in given array
 			System.out.println("Element in position"+i+"is: "+array[i]);
-			i++;//increment the array
-		}while(i<7);//condition to repeat the statements
+		}
 	}
 }
