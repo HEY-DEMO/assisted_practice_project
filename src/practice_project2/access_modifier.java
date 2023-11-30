@@ -28,7 +28,7 @@ class access{
 	void character() { 
 		System.out.println("Name of the character: "+this.name );
 	}
-	void perform() { //private modifier can only be accessed by a public method
+	void perform() { //private modifier can only be accessed by a method and cant access directly
 		System.out.println("The role of the character: "+this.role);
 	}
 	String p() {
